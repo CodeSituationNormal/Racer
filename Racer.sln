@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RacerWF", "RacerUI\RacerWF.csproj", "{C7B9778A-4D36-4BA7-86E3-BDF821E79747}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RacerRender", "RacerRender\RacerRender.vcxproj", "{7165B81B-6C4E-4143-BEC0-C30323AAC6FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7B9778A-4D36-4BA7-86E3-BDF821E79747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7B9778A-4D36-4BA7-86E3-BDF821E79747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7B9778A-4D36-4BA7-86E3-BDF821E79747}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C7B9778A-4D36-4BA7-86E3-BDF821E79747}.Debug|x64.Build.0 = Debug|Any CPU
+		{C7B9778A-4D36-4BA7-86E3-BDF821E79747}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C7B9778A-4D36-4BA7-86E3-BDF821E79747}.Debug|x86.Build.0 = Debug|Any CPU
+		{C7B9778A-4D36-4BA7-86E3-BDF821E79747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7B9778A-4D36-4BA7-86E3-BDF821E79747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7B9778A-4D36-4BA7-86E3-BDF821E79747}.Release|x64.ActiveCfg = Release|Any CPU
+		{C7B9778A-4D36-4BA7-86E3-BDF821E79747}.Release|x64.Build.0 = Release|Any CPU
+		{C7B9778A-4D36-4BA7-86E3-BDF821E79747}.Release|x86.ActiveCfg = Release|Any CPU
+		{C7B9778A-4D36-4BA7-86E3-BDF821E79747}.Release|x86.Build.0 = Release|Any CPU
+		{7165B81B-6C4E-4143-BEC0-C30323AAC6FD}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{7165B81B-6C4E-4143-BEC0-C30323AAC6FD}.Debug|Any CPU.Build.0 = Debug|x64
+		{7165B81B-6C4E-4143-BEC0-C30323AAC6FD}.Debug|x64.ActiveCfg = Debug|x64
+		{7165B81B-6C4E-4143-BEC0-C30323AAC6FD}.Debug|x64.Build.0 = Debug|x64
+		{7165B81B-6C4E-4143-BEC0-C30323AAC6FD}.Debug|x86.ActiveCfg = Debug|Win32
+		{7165B81B-6C4E-4143-BEC0-C30323AAC6FD}.Debug|x86.Build.0 = Debug|Win32
+		{7165B81B-6C4E-4143-BEC0-C30323AAC6FD}.Release|Any CPU.ActiveCfg = Release|x64
+		{7165B81B-6C4E-4143-BEC0-C30323AAC6FD}.Release|Any CPU.Build.0 = Release|x64
+		{7165B81B-6C4E-4143-BEC0-C30323AAC6FD}.Release|x64.ActiveCfg = Release|x64
+		{7165B81B-6C4E-4143-BEC0-C30323AAC6FD}.Release|x64.Build.0 = Release|x64
+		{7165B81B-6C4E-4143-BEC0-C30323AAC6FD}.Release|x86.ActiveCfg = Release|Win32
+		{7165B81B-6C4E-4143-BEC0-C30323AAC6FD}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99E7F41E-A4DC-42F5-A630-F78D6FA3E944}
+	EndGlobalSection
+EndGlobal
