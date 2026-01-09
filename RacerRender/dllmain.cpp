@@ -169,6 +169,17 @@ bool InitTextures()
         && LoadTexturePNG("..\\..\\..\\..\\assets\\road.png", &g_roadTex)
         && LoadTexturePNG("..\\..\\..\\..\\assets\\dash.png", &g_dashTex)
         && LoadTexturePNG("..\\..\\..\\..\\assets\\grass.png", &g_grassTex));
+    //bool success = (LoadTexturePNG("car_red.png", &g_playerTex)
+    //    && LoadTexturePNG("car_blue.png", &g_blueEnemyTex)
+    //    && LoadTexturePNG("car_yellow.png", &g_yellowEnemyTex)
+    //    && LoadTexturePNG("car_green.png", &g_greenEnemyTex)
+    //    && LoadTexturePNG("car_purple.png", &g_purpleEnemyTex)
+    //    && LoadTexturePNG("car_pink.png", &g_pinkEnemyTex)
+    //    && LoadTexturePNG("coin.png", &g_coinTex)
+    //    && LoadTexturePNG("explosion.png", &g_explosionTex)
+    //    && LoadTexturePNG("road.png", &g_roadTex)
+    //    && LoadTexturePNG("dash.png", &g_dashTex)
+    //    && LoadTexturePNG("grass.png", &g_grassTex));
     return success;
 }
 
@@ -221,8 +232,8 @@ void RenderFrame(
     glBindTexture(GL_TEXTURE_2D, g_grassTex);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
-    float tileFactorX = 5.0f; // сколько раз текстура повторяется по X
-    float tileFactorY = 5.0f; // сколько раз по Y
+    float tileFactorX = 5.0f;
+    float tileFactorY = 5.0f; 
 
     glBegin(GL_QUADS);
     glTexCoord2f(0.0f, 0.0f); glVertex2f(-1.0f, -1.0f);
