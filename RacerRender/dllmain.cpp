@@ -158,17 +158,17 @@ bool InitFont()
 extern "C" __declspec(dllexport)
 bool InitTextures()
 {
-    bool success = (LoadTexturePNG("car_red.png", &g_playerTex) 
-        && LoadTexturePNG("car_blue.png", &g_blueEnemyTex)
-        && LoadTexturePNG("car_yellow.png", &g_yellowEnemyTex)
-        && LoadTexturePNG("car_green.png", &g_greenEnemyTex)
-        && LoadTexturePNG("car_purple.png", &g_purpleEnemyTex)
-        && LoadTexturePNG("car_pink.png", &g_pinkEnemyTex)
-        && LoadTexturePNG("coin.png", &g_coinTex)
-        && LoadTexturePNG("explosion.png", &g_explosionTex)
-        && LoadTexturePNG("road.png", &g_roadTex)
-        && LoadTexturePNG("dash.png", &g_dashTex)
-        && LoadTexturePNG("grass.png", &g_grassTex));
+    bool success = (LoadTexturePNG("..\\..\\..\\..\\assets\\car_red.png", &g_playerTex) 
+        && LoadTexturePNG("..\\..\\..\\..\\assets\\car_blue.png", &g_blueEnemyTex)
+        && LoadTexturePNG("..\\..\\..\\..\\assets\\car_yellow.png", &g_yellowEnemyTex)
+        && LoadTexturePNG("..\\..\\..\\..\\assets\\car_green.png", &g_greenEnemyTex)
+        && LoadTexturePNG("..\\..\\..\\..\\assets\\car_purple.png", &g_purpleEnemyTex)
+        && LoadTexturePNG("..\\..\\..\\..\\assets\\car_pink.png", &g_pinkEnemyTex)
+        && LoadTexturePNG("..\\..\\..\\..\\assets\\coin.png", &g_coinTex)
+        && LoadTexturePNG("..\\..\\..\\..\\assets\\explosion.png", &g_explosionTex)
+        && LoadTexturePNG("..\\..\\..\\..\\assets\\road.png", &g_roadTex)
+        && LoadTexturePNG("..\\..\\..\\..\\assets\\dash.png", &g_dashTex)
+        && LoadTexturePNG("..\\..\\..\\..\\assets\\grass.png", &g_grassTex));
     return success;
 }
 
